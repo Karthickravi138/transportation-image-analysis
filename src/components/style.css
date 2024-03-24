@@ -1,0 +1,58 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin: 0 auto;
+  max-width: 600px;
+}
+
+.card {
+  flex: 1;
+  background-color: #fff;
+  border-radius: 15px;
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  padding: 20px;
+  margin-bottom: 20px;
+  margin-top: 50px;
+}
+
+.left-card {
+  margin-right: 50px; /* Adjust the spacing between cards */
+}
+
+.right-card {
+  margin-left: 50px; /* Adjust the spacing between cards */
+}
+
+.card-content {
+  margin-bottom: 20px;
+}
+
+.uploaded-image,
+.processed-image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 15px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+.error {
+  color: red;
+  font-weight: bold;
+}
+
+button[type="submit"] {
+  background: linear-gradient(130deg, #231a6f, #0f054c);
+  color: #fff;
+  border: none;
+  margin-top: 10px;
+  border-radius: 25px;
+  padding: 12px 20px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background 0.3s ease;
+}
+
+button[type="submit"]:hover {
+  background: #8f94fb;
+}
